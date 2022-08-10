@@ -14,4 +14,4 @@ Tertarik untuk mendengar panggilan namamu diikuti oleh Title tersebut setiap kal
 
 3. Seperti gambar diatas, disana sudah tampak FLAGnya dan dapat langsung disubmit.
 
-FLAG: **COMPFEST14{m4STeR_0f_fil3_STruCtuRe_4nd_aUDi0_aNAlys1S_4185015c52}**
+FLAG: 'COMPFEST14{m4STeR_0f_fil3_STruCtuRe_4nd_aUDi0_aNAlys1S_4185015c52}'
