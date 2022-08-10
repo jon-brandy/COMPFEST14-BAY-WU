@@ -18,7 +18,13 @@ Tertarik untuk mendengar panggilan namamu diikuti oleh Title tersebut setiap kal
 
 3. Setelah memilih format tersebut, maka bentuk gelombangnya akan berubah dan membentuk huruf, angka serta simbol yang merupakan FLAG soal ini.
 
-![image](https://user-images.githubusercontent.com/89120989/183807729-ffe3b35a-33f2-4474-bbb9-51c27db5f69a.png)
+![image](https://user-images.githubusercontent.com/70703371/183821048-8d27bd32-0503-4a8b-b9a6-2ef1381cc0fd.png)
 
+---
 
-FLAG: `COMPFEST14{m4STeR_0f_fil3_STruCtuRe_4nd_aUDi0_aNAlys1S_4185015c52}`
+## FLAG
+
+```
+COMPFEST14{m4STeR_0f_fil3_STruCtuRe_4nd_aUDi0_aNAlys1S_4185015c52}
+```
+
