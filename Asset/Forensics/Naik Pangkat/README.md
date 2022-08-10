@@ -10,7 +10,7 @@ Tertarik untuk mendengar panggilan namamu diikuti oleh Title tersebut setiap kal
 ## LANGKAH-LANGKAH:
 1. Membuka file dengan aplikasi `audacity` pada windows.
 
-![image](https://user-images.githubusercontent.com/70703371/183807582-612e38d1-dea7-4f80-8720-519344011925.png)
+![image](https://user-images.githubusercontent.com/70703371/183823229-601d9efa-23a0-4203-902d-8993c473b044.png)
 
 2. Lalu pilih format `spectogram`.
 
