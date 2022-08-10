@@ -4,7 +4,7 @@ Pak Josefumi, kepala divisi File Forensic, memberi Title pada nama setiap anggot
 Title tersebut menggambarkan pencapaian mereka setelah menyelesaikan tantangan sulit dari Pak Josefumi, yang mana hanya diadakan tiga bulan sekali. 
 Tertarik untuk mendengar panggilan namamu diikuti oleh Title tersebut setiap kali dipanggil oleh teman-temanmu, kamu menerima tantangan pada hari itu.
 
-## FILE: 
+## ATTACHMENTS: 
 ![Hmm](https://user-images.githubusercontent.com/89120989/183808119-599cbfd0-cdcb-4e2f-b304-e9d3059b0fb9.jpeg)
 
 ## LANGKAH-LANGKAH:
