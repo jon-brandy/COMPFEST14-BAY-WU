@@ -5,5 +5,7 @@
 
 > TABLE OF CONTENTS
 
-
+|No.|Problems|Category||Points|
+|:-:|:------:|:------:|:-----:|
+|1. |Sanity Check|Misc|
 
