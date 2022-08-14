@@ -138,7 +138,7 @@ print(privateKey)
 
 > SCRIPT
 
-```
+```py
 import math
 from Crypto.PublicKey import RSA
 import os
@@ -176,7 +176,7 @@ print(final)
 
 > SCRIPT
 
-```
+```py
 import math
 from Crypto.PublicKey import RSA
 import os
