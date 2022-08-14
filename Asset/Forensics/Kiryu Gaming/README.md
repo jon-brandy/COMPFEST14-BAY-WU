@@ -1,7 +1,7 @@
 # Kiryu Gaming
 ## DESKRIPSI:
 Kiryu is trying his new purple gaming lamp in his room. What do you think?
-[FILE]()
+[FILE](https://github.com/jon-brandy/COMPFEST14-BAY-WU/blob/9d6344e6648de4c4c77a170854e8fed48d8ab45c/Asset/Forensics/Kiryu%20Gaming/chall.png)
 ## LANGKAH-LANGKAH
 1. Download file yang telah diberikan.
 2. Diketahui file yang diberikan merupakan sebuah gambar dalam format `.png` dan file tersebut tidak memiliki header yang corrupt (dapat dibuka).
