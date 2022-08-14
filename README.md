@@ -14,3 +14,4 @@
 |4. |[Binary Exploitation Is Ez]()|Binary Exploitation|
 |5. |[Yours Truly]()|Cryptography|
 |6. |[Binary Pin]()|Reverse Engineering|
+|7. |[Kiryu Gaming](https://github.com/jon-brandy/COMPFEST14-BAY-WU/blob/27c12067f80cdf8793c5b697e603747f6cf3476b/Asset/Forensics/Kiryu%20Gaming/README.md)|Forensics|
