@@ -1,4 +1,4 @@
-# CTF COMPFEST 14 BAY's WRITE UP
+# CTF COMPFEST14 BAY's WRITE UP
 #### 10 Agustus 2022
 
 ## HackerClass
