@@ -1,4 +1,7 @@
 # Naik Pangkat
+
+> Write-up author: Q (SOLVED)
+
 ## DESKRIPSI:
 Pak Josefumi, kepala divisi File Forensic, memberi Title pada nama setiap anggota divisinya agar dapat memotivasi anggota-anggota di dalam divisi. 
 Title tersebut menggambarkan pencapaian mereka setelah menyelesaikan tantangan sulit dari Pak Josefumi, yang mana hanya diadakan tiga bulan sekali. 
