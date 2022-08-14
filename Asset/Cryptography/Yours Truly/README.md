@@ -207,6 +207,8 @@ print(bytearray.fromhex(hex(final)[2:]).decode('ascii'))
 
 > OUTPUT
 
+13. Flag pun di dapat!
+
 ```
 COMPFEST14{hello__how_are_you_?_i_hope_youre_doing_alright_thank_you_and_good_bye_2fdf9d6610}
 ```
