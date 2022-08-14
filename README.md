@@ -9,7 +9,7 @@
 |No.|Problems|Category|
 |:-:|:------:|:------:|
 |1. |[Sanity Check](https://github.com/jon-brandy/COMPFEST14-BAY-WU/blob/d0960e74f566b12d23014157353132ab54c6cf0d/Asset/Misc/Sanity%20Check/README.md)|Misc|
-|2. |[Naik Pangkat](https://github.com/jon-brandy/COMPFEST14-BAY-WU/blob/d0960e74f566b12d23014157353132ab54c6cf0d/Asset/Forensics/Naik%20Pangkat/README.md)|Forensic|
+|2. |[Naik Pangkat](https://github.com/jon-brandy/COMPFEST14-BAY-WU/blob/865fd975c7c2c25384f340c14117f12dec450e43/Asset/Forensics/Naik%20Pangkat/README.md)|Forensic|
 |3. |[Hospital Donation](https://github.com/jon-brandy/COMPFEST14-BAY-WU/blob/d0960e74f566b12d23014157353132ab54c6cf0d/Asset/Web%20Exploitation/Hospital%20Donation/README.md)|Web Exploitation|
 |4. |[Binary Exploitation Is Ez]()|Binary Exploitation|
 |5. |[Yours Truly]()|Cryptography|
