@@ -5,7 +5,7 @@
 ## DESKRIPSI:
 I want to send this message to my friend Alice but I'm too busy. Can you send it to her? It has sensitive information though, I've protected it using Alice's RSA public key so don't bother peeking!
 
-[FILE]()
+[FILE](https://github.com/jon-brandy/COMPFEST14-BAY-WU/blob/09a5d147d15d62178d0b5fa2215222b3a975aa07/Asset/Cryptography/Yours%20Truly/chall.zip)
 
 ## LANGKAH-LANGKAH:
 1. Pertama, unduh file `.zip` yang diberikan.
