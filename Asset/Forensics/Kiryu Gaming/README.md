@@ -1,4 +1,7 @@
 # Kiryu Gaming
+
+> Write-up author: jon-brandy (SOLVED)
+
 ## DESKRIPSI:
 Kiryu is trying his new purple gaming lamp in his room. What do you think?
 [FILE](https://github.com/jon-brandy/COMPFEST14-BAY-WU/blob/9d6344e6648de4c4c77a170854e8fed48d8ab45c/Asset/Forensics/Kiryu%20Gaming/chall.png)
