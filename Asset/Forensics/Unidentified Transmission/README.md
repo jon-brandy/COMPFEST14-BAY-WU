@@ -62,6 +62,19 @@ to monitor data delivery on large multicast networks.
 
 ![image](https://user-images.githubusercontent.com/70703371/184569528-c898a7e7-c68b-420c-839c-251f2427ded5.png)
 
+> HASIL
+
+![image](https://user-images.githubusercontent.com/70703371/184569576-bbb6c3a1-e837-4153-b9f7-a98a4d08ea08.png)
+
+14. Buka tab `graph`, lalu tekan tombol `Play Streams`.
+
+![image](https://user-images.githubusercontent.com/70703371/184569625-bd7b494f-04d1-41ed-9592-ca633bd587d1.png)
+
+15. Tekan button `play` pada bagian pojok kiri bawah.
+
+![image](https://user-images.githubusercontent.com/70703371/184569657-61e1b0ce-1bc1-415d-b479-6dfe8bfb18a3.png)
+
+
 
 
 ## REFERENCES
