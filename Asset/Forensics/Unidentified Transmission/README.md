@@ -78,7 +78,14 @@ to monitor data delivery on large multicast networks.
 ![image](https://user-images.githubusercontent.com/70703371/184569657-61e1b0ce-1bc1-415d-b479-6dfe8bfb18a3.png)
 
 16. Setelah mendengarkan [audio](https://github.com/jon-brandy/COMPFEST14-BAY-WU/blob/c92e130f45de3ee219bbbac7fcf5edf04b2ea129/Asset/Forensics/Unidentified%20Transmission/foren.wav) tersebut, berdasarkan hint nomor 1 & 2, sepertinya signal ini biasa digunakan NASA untuk mengirimkan gambar atau data saat **moon landing** ke bumi.
-17. Maka dari itu saya eksport audio ini.
+
+> NOTES
+
+```
+Audio file yang diberikan sangat mirip dengan challenge m00nwalk pada website picoCTF
+```
+
+18. Maka dari itu saya eksport audio ini.
 
 ![image](https://user-images.githubusercontent.com/70703371/184572031-b73634bd-c1fb-40b6-8c4c-8d2ef8571ad7.png)
 
