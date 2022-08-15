@@ -3,7 +3,7 @@
 
 ## HackerClass
 
-> TABLE OF CONTENTS
+> TABLE OF CONTENTS (Challenge solved by team BAY)
 
 
 |No.|Problems|Category|
