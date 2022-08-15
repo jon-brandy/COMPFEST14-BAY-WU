@@ -1,4 +1,7 @@
 # Unidentified Transmission
+
+> Write-up author: jon-brandy (SOLVED)
+
 ## DESKRIPSI:
 I heard some eerie noises when I was streaming. I wonder what it is
 
