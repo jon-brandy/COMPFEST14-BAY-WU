@@ -77,8 +77,32 @@ to monitor data delivery on large multicast networks.
 
 ![image](https://user-images.githubusercontent.com/70703371/184569657-61e1b0ce-1bc1-415d-b479-6dfe8bfb18a3.png)
 
-16. After hearing the [audio](https://github.com/jon-brandy/COMPFEST14-BAY-WU/blob/c92e130f45de3ee219bbbac7fcf5edf04b2ea129/Asset/Forensics/Unidentified%20Transmission/foren.wav), based on the hint number 1 & 2, this might be a signals used to transmit data/pictures from moon landing to earth.
+16. Setelah mendengarkan [audio](https://github.com/jon-brandy/COMPFEST14-BAY-WU/blob/c92e130f45de3ee219bbbac7fcf5edf04b2ea129/Asset/Forensics/Unidentified%20Transmission/foren.wav) tersebut, berdasarkan hint nomor 1 & 2, sepertinya signal ini biasa digunakan NASA untuk mengirimkan gambar atau data saat **moon landing** ke bumi.
+17. Maka dari itu saya eksport audio ini.
 
+![image](https://user-images.githubusercontent.com/70703371/184572031-b73634bd-c1fb-40b6-8c4c-8d2ef8571ad7.png)
+
+18. Selanjutnya, saya menggunakan tools bernama RX-SSTV, untuk mendekripsi audio tersebut menjadi gambar.
+19. Saya menggunakan handphone sebagai speaker dan menekan tombol `RX` dengan mode `Robot 36`.
+
+> HASIL
+
+![image](https://user-images.githubusercontent.com/70703371/184572159-1891e68d-abd6-4677-959a-bc566bf2eefd.png)
+
+20. Di dapat hasil dekripsi merupakan sebuah gambar barcode.
+21. Menggunakan handphone untuk melakukan *scan* pada barcode.
+
+> HASIL
+
+![WhatsApp Image 2022-08-15 at 10 27 59 AM](https://user-images.githubusercontent.com/70703371/184572297-6577f511-e262-4068-af51-10bb61e6b0e5.jpeg)
+
+22. Flag pun di dapat!
+
+## FLAG
+
+```
+COMPFEST14{1t_w4s_1nde3d_4n_1ma9e_tr4nsmiss1on_huh_019d8ec6f6}
+```
 
 
 ## REFERENCES
