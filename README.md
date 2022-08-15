@@ -1,5 +1,5 @@
 # CTF COMPFEST14 BAY's WRITE UP [INA]
-#### 10 Agustus 2022
+#### Bogor, 10 Agustus 2022
 
 ## HackerClass
 
