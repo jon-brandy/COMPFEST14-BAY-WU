@@ -16,3 +16,161 @@ Be careful though, Snab has some trick up his sleeve.
 
 > HASIL
 
+![image](https://user-images.githubusercontent.com/70703371/185386590-c25cd6eb-e16d-42b8-9884-b5c3a5e189f3.png)
+
+> FILE OUTPUT.TXT
+
+![image](https://user-images.githubusercontent.com/70703371/185386726-e55dcd57-6af0-45c1-9577-bcbe52a9dcbb.png)
+
+> FILE SNAB.PY
+
+![image](https://user-images.githubusercontent.com/70703371/185386792-c211ba4a-26db-4ac5-b285-57166297b8f9.png)
+
+4. Sebenarnya soal ini sangat mirip dengan soal COMPFEST12, yang dimana isi file `output.txt` memiliki valua yang saling berurutan, yakni value dari `e , s, n, a, b, dan ciphertext`.
+5. Maka dari itu saya tinggal menyalin semua value tersebut ke script python yang saya temukan dari soal COMPFEST12.
+
+> SCRIPT RSA
+
+```py
+import math
+from Crypto.Util.number import *
+#############
+_1_50 = 1 << 50  # 2**50 == 1,125,899,906,842,624
+
+def isqrt(x):
+    """Return the integer part of the square root of x, even for very
+    large integer values."""
+    if x < 0:
+        raise ValueError('square root not defined for negative numbers')
+    if x < _1_50:
+        return int(math.sqrt(x))  # use math's sqrt() for small parameters
+    n = int(x)
+    if n <= 1:
+        return n  # handle sqrt(0)==0, sqrt(1)==1
+    # Make a high initial estimate of the result (a little lower is slower!!!)
+    r = 1 << ((n.bit_length() + 1) >> 1)
+    while True:
+        newr = (r + n // r) >> 1  # next estimate by Newton-Raphson
+        if newr >= r:
+            return r
+        r = newr
+#############
+e=65537
+s = 18888477884058451688752413095085721219364398822337052775073767480959023338211942937825946854170356139498387197731306776880175245883794113463537839351817535276431556
+n = 4690424750257350631620865732584655981027951201685742630020303998423410595119287880956335139545308107970750426464283135541972204735873571888148705331864836015265933
+a = 464
+b = 94439331607554968467305501044065157841205111467437819343556103154764961655884028074860959294800652101728168419854196374674958354988455763716865268935637336216395108528
+ciphertext = [2383668308611892966930094555394938614283959664320589561416377306001325250042586393524273138225667331983493658087377679102016426665690610182563511757670136044549997, 1189228788461137762149309566159473976502650644248829229484591669933376339438424203999478282204919680169692306913751981908675084771067704651248124497342684993989614, 2762404167227191009251955125962458098456749265910073333796783178415774109370121293163412441148096107511694116389194054084365141612408815901237412572923736708864802, 3769475576026926450982788939254609468642709661078770848736663639419041588845117769713452703046411756269096641076931573177784204253949523755396968164389261044518750, 1967778373158968768800368736436081182612446511392719072170820532183796054499794582531988118917341850207048530765278259509612266312613461513490902906782023213921042, 4553876592444529974146208144686748267056011635727827555194427721861939900112738104779555754883408499601402508737636347457946053267267194688282443877681230061205045, 1342616956306800384658707409989123998829048428024701824671611267955900349305758066768868765134747284303958318673980824399058508884253892462681852019178405244993187, 4035926862356016516786552803549450027457790177315561448968003258160662304520786139571815164510266208436748396751889944442743459133591289470820805713896457291146241, 545446352780932320341751327290473593238041248052290314370536425366421232958030295811131328440070400991602598328445998544731396637459055906406233996731145199663475, 2762404167227191009251955125962458098456749265910073333796783178415774109370121293163412441148096107511694116389194054084365141612408815901237412572923736708864802, 2140450132421535390281900825023247625611538839084822697173050198183918645612182002227868312998431347739295233406696847885556147542235631225207778782298667423141206, 199613717112021356249410622142542797454113146306012125773676967745628402741283272919937876549372447891087490822133481367181111918876976256411098516746836003013749, 1449418827755507731963185024805308038806880799706973756727042086409539551646879049238072178867100217761210261880683937884534761895752541638640544320006838610199402, 3916208121234889090676895695540303826611241949604716979645446238784542563589438461759253828602399659237702054032803877317913617547663496356974926240556241876961160]
+# print(len(ciphertext))
+# s = (p+q)^2
+# n = p*q
+#=> can_s = p+q ; n=p*q
+can_s = isqrt(s)
+#p*(can_s-p)=n <=> p^2 - p*can_s + n = 0
+_a = 1
+_b = -can_s 
+_c = n 
+delta = _b*_b - 4*_a*_c 
+can_delta = isqrt(delta)
+q = (can_s + can_delta)//2
+p = n//q
+# print(p)
+# print(q)
+##############################Done calculate p,q #############
+# s^3 = a (mod r)
+# b = (s-q*(2*p+q))*r => r = b // (s-q*(2*p+q))
+
+mixed = (s-q*(2*p+q)) 
+r = b//mixed
+#############Done Calculate r #################
+
+#(m[i]*r)^e = c[i] (mod n)
+#phi = (p-1)*(q-1)
+# d = e^(-1) (mod phi)
+# (m[i]*r) = c[i]^(d) (mod n)
+# => m[i] = r^(-1)*c[i]^(d) (mod n)
+def solve():
+    phi = (p-1)*(q-1)
+    d = inverse(e,phi)
+    mm=[]
+    for _c in ciphertext:
+        _m = inverse(r,n)*pow(_c,d,n)
+        _m = _m%n 
+        mm.append(_m)
+    for _m in mm:
+        print(long_to_bytes(_m))
+
+solve()
+
+##############TEST ########
+# if(pow(s,3,r)==a):
+#     print("Y")
+# if(b%mixed==0):
+#     print("Y")
+
+
+
+#############Tiep tuc pha an ################### 
+# b"#Snab says good job! But you're not done yet\n"
+# b'flag = findme\n'
+# b"halfa = ''.join([flag[i] for i in range (0, len(flag), 2)])\n"
+# b"halfb = ''.join([flag[i] for i in range (1, len(flag), 2)]\n"
+# b"p = bytes_to_long(bytes(halfa, encoding = 'utf-8'))\n"
+# b"q = bytes_to_long(bytes(halfb, encoding = 'utf-8'))\n"
+# b'r = 0\n'
+# b'while (not(isPrime(p) and isPrime(q))):\n'
+# b'    p += 1\n'
+# b'    q += 1\n'
+# b'    r += 1\n'
+
+#p_goc = p-1
+#q_goc = q-1
+p_goc = p-r
+q_goc = q-r
+# while(isPrime(p) and isPrime(q)):
+#     p-=1
+#     q-=1
+
+# print(long_to_bytes(p_goc))
+# print(long_to_bytes(q_goc))
+half_a = long_to_bytes(p_goc)
+half_b = long_to_bytes(q_goc)
+# print(len(half_a))
+# print(len(half_b))
+# print(chr(half_a[0]))
+
+# res=res + chr(half_a[0])
+# for i in half_b:
+#     print(chr(i))
+def solve1():
+    res=""
+    i=0
+    dem1=0
+    dem2=0
+    while(1):
+        if(dem1==len(half_a) and dem2==len(half_b)):
+            break
+        if(i%2==0):
+            res=res+ chr(half_a[dem1])
+            dem1+=1
+        else:
+            res=res+ chr(half_b[dem2])
+            dem2+=1
+        i+=1
+    print(res)
+solve1()
+# print(res)
+
+```
+
+6. Jalankan script python tersebut -> `python3 coba.py`.
+
+> HASIL
+
+![image](https://user-images.githubusercontent.com/70703371/185386442-c8463ff5-c1e8-4480-b438-c48898e7d4d9.png)
+
+## FLAG
+
+```
+COMPFEST14{y0U_d1DnT_3xpEcT_t0_FinD_pQ_4s_a_fl4g_DiD_y0u_7e1877a801}
+```
