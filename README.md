@@ -15,4 +15,5 @@
 |5. |[Kiryu Gaming](https://github.com/jon-brandy/COMPFEST14-BAY-WU/blob/27c12067f80cdf8793c5b697e603747f6cf3476b/Asset/Forensics/Kiryu%20Gaming/README.md)|Forensic|
 |6. |[Unidentified Transmission](https://github.com/jon-brandy/COMPFEST14-BAY-WU/blob/1ea1452708799f9efce487d7de1bdb2b3358c194/Asset/Forensics/Unidentified%20Transmission/README.md)|Forensic|
 |7. |[Snab? Yes, Snab](https://github.com/jon-brandy/COMPFEST14-BAY-WU/blob/e018c4cc522bc9036034c9450a687674e1235d8a/Asset/Cryptography/Snab%3F%20Yes,%20Snab/README.md)|Cryptography|
+|8. |[Binary Pin](https://github.com/jon-brandy/COMPFEST14-BAY-WU/blob/8ef96b5d57cbf21b5e49da79745b9be6ecb4e8df/Asset/Reverse%20Engineering/Binary%20Pin/README.md)|Reverse Engineering|
 
