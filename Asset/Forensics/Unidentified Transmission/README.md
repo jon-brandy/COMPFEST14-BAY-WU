@@ -99,8 +99,8 @@ Audio file yang diberikan sangat mirip dengan challenge m00nwalk pada website pi
 
 ![image](https://user-images.githubusercontent.com/70703371/184572159-1891e68d-abd6-4677-959a-bc566bf2eefd.png)
 
-20. Di dapat hasil dekripsi merupakan sebuah gambar barcode.
-21. Menggunakan handphone untuk melakukan *scan* pada barcode.
+20. Di dapat hasil dekripsi merupakan sebuah gambar QR code.
+21. Menggunakan handphone untuk melakukan *scan* pada QR code.
 
 > HASIL
 
