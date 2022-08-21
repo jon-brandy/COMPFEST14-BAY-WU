@@ -210,3 +210,16 @@ CLIENT_RANDOM 0f97569ea8d9ae4e77ecc3dadc373725d99ab8ad2f8752a2f326b5ad653e14ec 6
 
 10. Lalu masukan file `ssl.log` ke wireshark dengan mengikuti tahapan sebagai berikut:
 
+```
+Edit -> Preferences -> Protocols -> TLS.
+```
+
+11. Saat sudah memilih TLS, masukan file `ssl.log` pada bagian `Pre-Master Secret log`. Selanjutnya tekan `ok`.
+
+![image](https://user-images.githubusercontent.com/70703371/185775709-9a9b509f-18cf-4694-a743-d6bb07f53a80.png)
+
+> HASIL
+
+![image](https://user-images.githubusercontent.com/70703371/185775733-2766d99e-9ea1-4678-86fd-38067e743f07.png)
+
+12. 
