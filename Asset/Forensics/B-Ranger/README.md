@@ -222,4 +222,19 @@ Edit -> Preferences -> Protocols -> TLS.
 
 ![image](https://user-images.githubusercontent.com/70703371/185775733-2766d99e-9ea1-4678-86fd-38067e743f07.png)
 
-12. 
+12. Sepertinya gambar terbagi menjadi beberapa bagian.
+
+![image](https://user-images.githubusercontent.com/70703371/185782382-9d0d7abc-f843-45f8-a781-db5f263de87f.png)
+
+13. Maka dari itu saya melakukan filtering dengan mengetikan query sebagai berikut :
+
+```
+http.response_for.uri == "https://storage.compfest.id/files/part_2.png"
+```
+
+> HASIL
+
+![image](https://user-images.githubusercontent.com/70703371/185782431-7d90f826-87bd-4fc0-a058-48db0ce311f3.png)
+
+14. 
+
