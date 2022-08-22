@@ -18,3 +18,5 @@
 |8. |[Binary Pin](https://github.com/jon-brandy/COMPFEST14-BAY-WU/blob/8ef96b5d57cbf21b5e49da79745b9be6ecb4e8df/Asset/Reverse%20Engineering/Binary%20Pin/README.md)|Reverse Engineering|
 |9. |[Survei](https://github.com/jon-brandy/COMPFEST14-BAY-WU/blob/041f9191faed9b9fb9b7e53646a3fa8ebd9eec20/Asset/Binary%20Exploitation/Survei/README.md)|Binary Exploitation|
 |10. |[PacilTxT](https://github.com/jon-brandy/COMPFEST14-BAY-WU/blob/4fd3fd034e5759286ed3012071a1f975d78c5dfc/Asset/Web%20Exploitation/PacilTxT/README.md)|Web Exploitation|
+|11. |[Binary Exploitation Is Ez](https://github.com/jon-brandy/COMPFEST14-BAY-WU/blob/ed5bf1a6e66a00c8318fb0a9c2ed7e538529bf65/Asset/Binary%20Exploitation/Binary%20Exploitation%20Is%20Ez/README.md)|Binary Exploitation Exploitation|
+
