@@ -14,7 +14,7 @@ I want to send this message to my friend Alice but I'm too busy. Can you send it
 ## LANGKAH-LANGKAH:
 1. Pertama, unduh file `.zip` yang diberikan.
 2. Extract zip tersebut.
-3. Di dapat 2 file baru bernama `message.enc' dan `pubkey.pem`.
+3. Di dapat 2 file baru bernama `message.enc` dan `pubkey.pem`.
 
 > ISI DARI PUBKEY.PEM
 
