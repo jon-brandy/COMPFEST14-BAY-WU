@@ -1,6 +1,6 @@
 # Estreis
 
-> Write-up author : jon-brandy | Q [SOLVED]
+> Write-up author : jon-brandy | Q (SOLVED)
 
 ## DESKRIPSI:
 My friend had executed an strace command in our server whilst I was editing a CTF challenge there. Can you trace the output and find the flag for me?
