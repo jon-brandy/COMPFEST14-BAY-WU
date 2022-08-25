@@ -234,7 +234,7 @@ Berikut adalah teks yang terdapat pola diatas
 
 10. Dari teks di atas dapat dilihat teks awalnya adalah `jangan lupa matiin strace nya ya hehe` perlahan-lahan mulai terseleksi dan berubah.
 11. Teks tersebut terus berubah hingga tidak ada lagi yang tersisa dari string `jangan lupa matiin strace nya ya hehe`.
-12. Huruf `e` dari `hehe` diganti menjadi `3` dan menjadi sebuah clue untuk melengkapi flag.
+12. Huruf `e` terakhir dari `hehe` diganti menjadi `3` dan menjadi sebuah clue untuk melengkapi flag.
 13. Setelah perubahan tersebut, terdapat `_` dilanjut dengan beberapa karakter huruf dan angka yang membentuk string `_c604dede56`.
 14. Dan akhirnya flag tersebut lengkap setelah diberikan `}`.
 
