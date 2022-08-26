@@ -1,7 +1,7 @@
 # CTF COMPFEST14 BAY's WRITE UP [INA]
 #### Bogor, 10 Agustus 2022
 
-## HackerClass
+## HackerClass (4 Wave)
 
 > TABLE OF CONTENTS (Challenge solved by team BAY)
 
