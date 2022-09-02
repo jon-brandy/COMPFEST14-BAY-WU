@@ -22,3 +22,5 @@
 |13. |[Survei 2](https://github.com/jon-brandy/COMPFEST14-BAY-WU/blob/76241d02a61681ca7f7fcc5f14376a1858b2c357/Asset/Binary%20Exploitation/Survei%202/README.md)|Binary Exploitation|
 
 ## QUALIFICATION
+|No.|Problems|Category|
+|:-:|:------:|:------:|
