@@ -24,3 +24,4 @@
 ## QUALIFICATION
 |No.|Problems|Category|
 |:-:|:------:|:------:|
+|1. |[Sanity Check](https://github.com/jon-brandy/COMPFEST14-BAY-WU/blob/70a526a330531201d48cf6143c2411118f887266/Asset2/Misc/Sanity%20Check/README.md)|Misc|
