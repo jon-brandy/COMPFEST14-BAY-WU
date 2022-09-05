@@ -21,7 +21,6 @@
 |12. |[Estreis](https://github.com/jon-brandy/COMPFEST14-BAY-WU/blob/76c7278f3cd6cd95491937617707d790d47371cc/Asset/Forensics/Estreis/README.md)|Forensic|
 |13. |[Survei 2](https://github.com/jon-brandy/COMPFEST14-BAY-WU/blob/76241d02a61681ca7f7fcc5f14376a1858b2c357/Asset/Binary%20Exploitation/Survei%202/README.md)|Binary Exploitation|
 
-## QUALIFICATION
 |No.|Problems|Category|
 |:-:|:------:|:------:|
 |1. |[Sanity Check](https://github.com/jon-brandy/COMPFEST14-BAY-WU/blob/70a526a330531201d48cf6143c2411118f887266/Asset2/Misc/Sanity%20Check/README.md)|Misc|
