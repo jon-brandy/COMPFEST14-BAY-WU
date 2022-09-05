@@ -3,7 +3,7 @@
 
 ## HackerClass (WARMUP)
 
-> Challenge solved by team BAY from wave 1 - 4
+> Challenge solved by team BAY from wave 1 - 4 (FINISHED 18th)
 
 |No.|Problems|Category|
 |:-:|:------:|:------:|
