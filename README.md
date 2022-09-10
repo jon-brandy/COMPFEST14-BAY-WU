@@ -1,9 +1,9 @@
 # CTF HACKERCLASS COMPFEST14 BAY's WRITE UP [INA]
 #### Bogor, 10 Agustus 2022
 
-## HackerClass (WARMUP)
+## HackerClass
 
-> Challenge solved by team BAY from wave 1 - 4 (FINISHED 18th)
+> Challenge solved by team BAY from wave 1 - 4 
 
 |No.|Problems|Category|
 |:-:|:------:|:------:|
